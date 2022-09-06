@@ -3,16 +3,12 @@ import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import Titulo from './components/Titulo';
 import Input from './components/Input';
-/* import Item from './components/Item'; */
 import Autos from './components/Autos';
+import ItemCount from './components/ItemCount';
 
 function App() {
 
-/*   const autos = ['Audi', 'BMW', 'Ferrari']; */
-/*   const items = autos.map(producto =>(
-    <Item valor = {producto} />
 
-  )) */
   const modelos = ['Audi', 'BMW', 'Ferrari'];
 
 
@@ -29,8 +25,11 @@ function App() {
         
         <Autos Items = {modelos} />
         
+        <ItemCount />
+
+
+
         <Titulo valor = 'Formulario' />
-        
         <div>
           <Input valor = 'Nombre'/>
           <Input valor = 'Correo Electronico'/>
