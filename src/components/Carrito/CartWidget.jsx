@@ -1,5 +1,6 @@
 import { Component } from "react";
-import CarritoIMG from "../../src/assets/Carrito.png"
+import CarritoIMG from "../../assets/Carrito.png"
+import '../Carrito/Carrito.css'
 
 class Carrito  extends Component {
     render(){

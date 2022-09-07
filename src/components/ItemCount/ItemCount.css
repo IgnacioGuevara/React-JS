@@ -1,0 +1,32 @@
+.contador {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.btnSuma {
+    background-color: orangered;
+    border-color: white;
+    color: white;
+    margin-right: 180px;
+    padding: 8px;
+    border-radius: 30px;
+}
+
+.btnResta {
+    color: white;
+    border-color: white;
+    background-color: orangered;
+    margin-left: 180px;
+    padding: 8px;
+    border-radius: 30px;
+}
+
+.btnAddCarrito {
+    border-radius: 30px;
+    background-color: lightgreen;
+    color: green;
+
+}

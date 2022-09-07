@@ -36,69 +36,7 @@
     transform: rotate(360deg);
   }
 }
-.colorGlass{
-  background-color:antiquewhite;
-  padding: 5px;
-  border-radius: 20px 0;
-  text-shadow: orangered 2px 2px 5px;
-  color:  orangered;
-}
-.seccionHeader{
-  font-weight: bold;
-}
 
-.seccionHeader:hover {
-  color: orangered;
-} 
 
-.Sesion{
-  background-color: orangered;
-  color: white;
-  padding: 5px;
 
-  border-radius: 30px;
-}
-.iniciarSesion{
-  padding-left: 10px;
 
-}
-.iniciarSesion:hover{
-  background-color: orangered;
-  border-radius: 30px;
-  color: white;
-}
-
-/* --footer-- */
-.fondoFooter{
-  background-color:antiquewhite;
-}
-.redesSecciones{
-  color: orangered;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-}
-.text-reset{
-  text-decoration: none;
-}
-.HomeTiendaContacto{
-  display: flex;
-  justify-content: space-around;
-}
-
-/* --CARRITO-- */
-.CarritoImg{
-  width: 25px;
-  height: 25px;
-;
-
-}
-
-/* --Contador--- */
-.contador{
-  width: fit-content;
-  background-color: gray;
-  margin: auto;
-  padding: 1rem;
-  text-align: center;
-}

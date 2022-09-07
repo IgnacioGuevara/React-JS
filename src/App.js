@@ -1,10 +1,10 @@
 import './App.css';
-import NavBar from './components/NavBar'
-import Footer from './components/Footer'
+import NavBar from './components/NavBar/NavBar'
+import Footer from './components/Footer/Footer'
+import ItemCount from './components/ItemCount/ItemCount';
 import Titulo from './components/Titulo';
 import Input from './components/Input';
 import Autos from './components/Autos';
-import ItemCount from './components/ItemCount';
 
 function App() {
 

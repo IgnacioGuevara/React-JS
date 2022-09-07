@@ -1,6 +1,7 @@
 //Crear una barra de menu simple, debe tener: Brand(titulo y nombre de la tienda), listado de categorias clicleables, boostrap.
 import React from "react";
-import CardWidget from "./CartWidget";
+import "../NavBar/NavBar.css"
+import CardWidget from "../Carrito/CartWidget";
 
 const NavBar = () =>{
     return(

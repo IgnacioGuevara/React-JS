@@ -1,0 +1,19 @@
+.fondoFooter {
+    background-color:rgb(228, 228, 208) ;
+}
+
+.redesSecciones {
+    color: orangered;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.text-reset {
+    text-decoration: none;
+}
+
+.HomeTiendaContacto {
+    display: flex;
+    justify-content: space-around;
+}

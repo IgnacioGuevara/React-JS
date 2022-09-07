@@ -1,11 +1,7 @@
 import React from 'react'
 
 const Autos = ( props ) => {
-    const {
-
-        Items
-
-    } = props
+    const {Items} = props
 
     return ( 
         <div>
