@@ -9,7 +9,7 @@ import Autos from './components/Autos';
 function App() {
 
 
-  const modelos = ['Audi', 'BMW', 'Ferrari'];
+  const modelos = ['iphone', 'samsung', 'xiaomi'];
 
 
 
