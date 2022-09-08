@@ -5,6 +5,7 @@ import ItemCount from './components/ItemCount/ItemCount';
 import Titulo from './components/Titulo';
 import Input from './components/Input';
 import Autos from './components/Autos';
+import ItemList from './components/ItemList/ItemList';
 
 function App() {
 
@@ -26,6 +27,8 @@ function App() {
         <Autos Items = {modelos} />
         
         <ItemCount />
+        <ItemList />
+
 
 
 
