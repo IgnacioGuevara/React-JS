@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 
 const Body = () =>{
     return(
@@ -7,4 +7,4 @@ const Body = () =>{
         </div>
     );
 }
-export default Body;
+export default Body; */

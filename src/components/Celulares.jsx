@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Autos = ( props ) => {
+const Celulares = ( props ) => {
     const {Items} = props
 
     return ( 
@@ -16,4 +16,4 @@ const Autos = ( props ) => {
     )
 }
 
-export default Autos
+export default Celulares

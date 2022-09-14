@@ -4,13 +4,18 @@ import '../ItemCount/ItemCount.css'
 
 const ItemCount = ({initial, stock, onAdd}) =>{
 
-    const [Contador, setContador] =  useState (1) /* Initial */
+    const [Contador, setContador] =  useState (initial)
+    const [btnCarrito, setBtnCarrito] =  useState (onAdd) 
 
     const suma = () =>{
         setContador(Contador + 1);
     }
-    const resta = () =>{
+    const resta = () =>{ 
         setContador(Contador - 1);
+    }
+    const addCarrito = () => {
+        setBtnCarrito(console.log(`se ha agregado ${ Contador } producto/s al carrito`));
+        alert(`se ha agregado ${ Contador } producto/s al carrito`)
     }
 
 
@@ -19,9 +24,9 @@ const ItemCount = ({initial, stock, onAdd}) =>{
             <h3>Contador</h3>
             <button disabled =  {Contador <= 1 }onClick={resta} className='btnSuma'>-</button>
             <span className="btnContador">{Contador}</span>
-            <button disabled ={Contador >= 5} onClick={suma}className='btnResta'>+</button>{/* --> Stock */}
+            <button disabled ={Contador >= stock} onClick={suma}className='btnResta'>+</button>
             <div>
-                <button className="btnAddCarrito" /* disabled={stock <= 0 } onClick={() => onAdd(Contador)} */> Agregar al carrito</button>{/* --> onAdd & stock*/}
+                <button className="btnAddCarrito" disabled={btnCarrito} onClick={addCarrito} > Agregar al carrito</button>
             </div>
         </div>
     )
