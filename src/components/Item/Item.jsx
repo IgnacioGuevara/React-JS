@@ -7,8 +7,8 @@ import ItemCount from '../ItemCount/ItemCount'
 
 const Item = (item) => {
     return (
-        <div className='container'>
-            <div className="card ">
+        <div className='container col-md-12 col-sm-12 col-lg-4'>
+            <div className="card">
                 <img src={samsungImg} className="card-img-top cardImg" alt={item.img}/>
                     <div className="card-body">
                         <h5 className="card-title text-center">{item.nombre}</h5>

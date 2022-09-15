@@ -9,17 +9,17 @@ function App() {
   return (
   <div>
       <NavBar /> 
-      {/* cardwidget dentro del NavBar */}
     <hr />
       <div className='container'>
         <Titulo valor= 'CELULARES:' />
-        <ItemsListContainer />
-        <Titulo valor = 'Formulario' />
-        <div>
+        <ItemsListContainer /> 
+      </div>
+      <div className='container'>
+          <Titulo valor = 'Formulario' />
           <Input valor = 'Nombre'/>
           <Input valor = 'Correo Electronico'/>
-        </div>
       </div>
+      
     <hr/>
       <Footer/>
   </div>

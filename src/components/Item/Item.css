@@ -1,11 +1,9 @@
 .cardImg{
-height: 50%;
-width: 50%;
+    height: auto;
+    width: auto;
+
 }
 .card{
     flex-direction: row;
     align-items: center;
-    width: 400px;
-    height: 300px;
-    margin-top: 10px;
 }
