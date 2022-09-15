@@ -1,9 +1,11 @@
-.celular{
-    display: inline-block;
-    width: 300px;
+.cardImg{
+height: 50%;
+width: 50%;
 }
-.imgCelular{
-    width: 60%;
-    object-fit: cover;
+.card{
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    margin-top: 10px;
 }
-
