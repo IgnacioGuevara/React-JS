@@ -9,7 +9,7 @@ const ItemsListContainer = () => {
     const [items, setItems] = useState([]);
     useEffect(() => {
         const productos =[
-                {'id': 1, 'nombre': "iphone", img: '../../assets/iphone.png', 'precio': 900, 'stock': 6,},
+                {'id': 1, 'nombre': "iphone", 'img': '../../assets/iphone.png', 'precio': 900, 'stock': 6,},
                 {'id': 2, 'nombre': "samsung", 'img': '../../assets/iphone.png', 'precio': 800,'stock': 3,},
                 {'id': 3, 'nombre': "xiaomi", 'img': '../../assets/iphone.png', 'precio': 600, 'stock': 2, },
             ];
@@ -28,7 +28,6 @@ const ItemsListContainer = () => {
         return (
             <div className='container'>
                 <ItemList items ={items} />
-                <item />
             </div>
         )
     }

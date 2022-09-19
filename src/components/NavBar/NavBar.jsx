@@ -2,13 +2,14 @@
 import React from "react";
 import "../NavBar/NavBar.css"
 import CardWidget from "../Carrito/CartWidget";
+import {NavLink} from 'react-router-dom'
 
 const NavBar = () =>{
     return(
         <div className="container">
             <nav className="navbar navbar-expand-lg bg-white mt-2 ">
                 <div className="container-fluid">
-                    <a className="navbar-brand " href="../public/index.html">DROP <span className="colorGlass"> GLASS </span> </a>
+                    <a className="navbar-brand " href="/Inicio">DROP <span className="colorGlass"> GLASS </span> </a>
                             <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" ria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
                             </button>
@@ -16,20 +17,20 @@ const NavBar = () =>{
 
                         <ul className="navbar-nav mx-auto seccioness">
                             <li className="nav-item">
-                                <a className="nav-link  seccionHeader"  href="../public/index.html">Inicio</a>
+                                <NavLink className="nav-link  seccionHeader"  to="/Inicio">Inicio</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link seccionHeader"  href="../public/index.html">Tienda</a>
+                                <NavLink className="nav-link seccionHeader"  to="/Tienda">Tienda</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link seccionHeader"  href="../public/index.html">Contactos</a>
+                                <NavLink className="nav-link seccionHeader"  to="/Contacto">Contactos</NavLink>
                             </li>
                             <CardWidget />
                         </ul>
                         
                     </div>
                     
-                    <a className="navbar-brand iniciarSesion " href="../public/index.html">Iniciar <span className="Sesion"> Sesión </span> </a>
+                    <a className="navbar-brand iniciarSesion " href="/Inicio">Iniciar <span className="Sesion"> Sesión </span> </a>
                 </div>
             </nav>
 

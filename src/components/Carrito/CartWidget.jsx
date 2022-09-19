@@ -7,7 +7,7 @@ class Carrito  extends Component {
         return(
             <div>
                 <li className="nav-item">
-                    <a className="nav-link seccionHeader"  href="../public/index.html">
+                    <a className="nav-link seccionHeader"  href="/Carrito">
                         <img className="CarritoImg" src={CarritoIMG} alt="" />
                     </a>
                 </li>

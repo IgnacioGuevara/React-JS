@@ -1,28 +1,28 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer'
-import Titulo from './components/Titulo';
-import Input from './components/Input';
-import ItemsListContainer from './components/ItemListContainer/ItemsListContainer';
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Inicio from './components/Inicio/Inicio'
+import Tienda from './components/Tienda/Tienda'
+import Contactos from './components/Contactos/Contactos'
+import Carro from './components/Carro/Carro'
+
 
 function App() {
   return (
-  <div>
+    <BrowserRouter>
       <NavBar /> 
-    <hr />
-      <div className='container'>
-        <Titulo valor= 'CELULARES:' />
-        <ItemsListContainer /> 
-      </div>
-      <div className='container'>
-          <Titulo valor = 'Formulario' />
-          <Input valor = 'Nombre'/>
-          <Input valor = 'Correo Electronico'/>
-      </div>
-      
-    <hr/>
+        <Routes>
+
+            <Route exact path='/Inicio' element={<Inicio />} />
+            <Route exact path='/Tienda' element={<Tienda />} />
+            <Route exact path='/Detalle' element= {<Tienda />} /> 
+            <Route exact path='/Contacto' element={<Contactos />} />
+            <Route exact path='/Carrito' element={<Carro />} />
+            
+        </Routes>
       <Footer/>
-  </div>
+    </BrowserRouter> 
   );
 }
 

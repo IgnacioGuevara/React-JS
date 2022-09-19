@@ -1,0 +1,8 @@
+.card-img-top{
+    width: 200px;
+    height: 200px;
+}
+.card{
+    flex-direction: row;
+    align-items: center;
+}
