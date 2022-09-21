@@ -5,10 +5,13 @@ import ItemListContainer from '../ItemListContainer/ItemsListContainer'
 
 
 
+
+
 const ItemDetailContainer = () => {
     const [data, setData] = useState([]);
     useEffect(() => {
-        const productos ={ 'id': 1, 'nombre': "Iphone", 'precio': 900, 'description': "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta asperiores sunt rerum exercitationem numquam explicabo odit omnis laboriosam ut accusamus. At quibusdam veniam nulla officiis magni amet. Iste, ducimus perspiciatis."};
+        const productos ={id: 1, nombre: "iphone", img: '../../assets/iphone.png', precio: 900, stock: 6,description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta asperiores sunt rerum exercitationem numquam explicabo odit omnis laboriosam ut accusamus. At quibusdam veniam nulla officiis magni amet. Iste, ducimus perspiciatis.", modelo: 'iphone'}
+
             
 
         const promesa = new Promise ((resolve,reject) => {

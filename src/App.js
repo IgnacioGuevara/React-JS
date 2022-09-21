@@ -8,17 +8,20 @@ import Contactos from './components/Contactos/Contactos'
 import Carro from './components/Carro/Carro'
 
 
+
+
 function App() {
   return (
     <BrowserRouter>
       <NavBar /> 
         <Routes>
 
-            <Route exact path='/Inicio' element={<Inicio />} />
-            <Route exact path='/Tienda' element={<Tienda />} />
-            <Route exact path='/Detalle' element= {<Tienda />} /> 
-            <Route exact path='/Contacto' element={<Contactos />} />
-            <Route exact path='/Carrito' element={<Carro />} />
+            <Route exact path='/inicio' element={<Inicio />} />
+            <Route exact path='/tienda' element={<Tienda />} />
+            <Route exact path='/tienda/:modeloId' element={<Tienda />} />
+            <Route exact path='/detalle/detalleId' element= {<Tienda />} /> 
+            <Route exact path='/contacto' element={<Contactos />} />
+            <Route exact path='/carrito' element={<Carro />} />
             
         </Routes>
       <Footer/>
